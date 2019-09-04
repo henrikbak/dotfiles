@@ -13,8 +13,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
 
 # Visual Studio Code
 vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
@@ -38,9 +36,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-# Peytz
-alias pco="ssh -q deploy@ng-ansible01.ng.peytz.dk pco $@"
-
 # Coder
 alias drupalcs="phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
 alias drupalcbf="phpcbf --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
@@ -56,7 +51,6 @@ fi
 
 alias doc="docker"
 alias dc="docker-compose"
-alias dc-traefik="docker-compose -f traefik.yml up -d"
 
 alias docker-clean-unused='docker system prune --all --force --volumes'
 alias docker-stop-all='docker stop $(docker ps -q)'
