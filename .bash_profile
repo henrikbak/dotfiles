@@ -1,6 +1,7 @@
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/php5/bin:$PATH"
+export NODE_OPTIONS=--max_old_space_size=4096
 
 # Load the shell dotfiles, and then some:
 for file in ~/.{bash_prompt,aliases}; do
