@@ -19,8 +19,8 @@ ln -sv ~/Projects/dotfiles/.gitconfig ~
 ### 3. Starship (https://starship.rs)
 Customizable prompt for Terminal.
 
-### 3. Fig (https://fig.io)
+### 4. Fig (https://fig.io)
 Autocomplete for Terminal.
 
-### 4. Dracula Theme (https://draculatheme.com)
+### 5. Dracula Theme (https://draculatheme.com)
 Theming for Terminal, VSCode, Fig, Chrome etc.
