@@ -4,27 +4,20 @@ My personal dotfiles setup.
 
 ## Setup
 
-1. Clone project.
+### 1. Clone project.
 ```
-$ git clone https://github.com/henrikbak/dotfiles.git ~/Projects/dotfiles
-```
-
-2. Create symlinks to home folder.
-```
-$ ln -sv ~/Projects/dotfiles/.bash_profile ~
-$ ln -sv ~/Projects/dotfiles/.aliases ~
-$ ln -sv ~/Projects/dotfiles/.gitconfig ~
+git clone https://github.com/henrikbak/dotfiles.git ~/Projects/dotfiles
 ```
 
-3. Install Fig (https://fig.io/)
+### 2. Create symlinks to home folder.
+```
+ln -sv ~/Projects/dotfiles/.bash_profile ~
+ln -sv ~/Projects/dotfiles/.aliases ~
+ln -sv ~/Projects/dotfiles/.gitconfig ~
+```
 
-4. Dracual Theme.
+### 3. Install Fig (https://fig.io)
+Autocomplete for Terminal.
 
-Terminal:
-https://draculatheme.com/terminal/
-
-VSCode:
-https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula
-
-Fig:
-Choose Dracual theme under settings > appearance.
+### 4. Dracula theme (https://draculatheme.com)
+Theming for Terminal, VSCode, Fig etc.
