@@ -16,8 +16,11 @@ ln -sv ~/Projects/dotfiles/.aliases ~
 ln -sv ~/Projects/dotfiles/.gitconfig ~
 ```
 
-### 3. Install Fig (https://fig.io)
+### 3. Starship (https://starship.rs)
+Customizable prompt for Terminal.
+
+### 3. Fig (https://fig.io)
 Autocomplete for Terminal.
 
-### 4. Dracula theme (https://draculatheme.com)
-Theming for Terminal, VSCode, Fig etc.
+### 4. Dracula Theme (https://draculatheme.com)
+Theming for Terminal, VSCode, Fig, Chrome etc.
