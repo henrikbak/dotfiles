@@ -1,6 +1,12 @@
-export PATH="$HOME/.composer/vendor/bin:$PATH"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="/usr/local/php5/bin:$PATH"
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+eval "$(starship init bash)"
 
 # Load the shell dotfiles, and then some:
 for file in ~/.{bash_prompt,aliases}; do
@@ -28,3 +34,9 @@ alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
+
+#### FIG ENV VARIABLES ####
+
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####

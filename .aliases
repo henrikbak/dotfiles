@@ -36,10 +36,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-# Coder
-alias drupalcs="phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
-alias drupalcbf="phpcbf --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
-
 # Git
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
