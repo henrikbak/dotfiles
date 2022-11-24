@@ -1,6 +1,6 @@
 [user]
-	name = Henrik Bak Thomassen
-  email = henbak@gmail.com
+  name = Henrik Bak Thomassen
+  email = henrik@webbook.dk
 [github]
 	user = henrikbak
 [core]
@@ -26,7 +26,7 @@
 [color "diff"]
 	whitespace = red reverse
 [push]
-	default = matching
+	default = current
 [alias]
 	cp = cherry-pick
 	st = status
